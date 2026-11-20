@@ -34,10 +34,10 @@
       <li><a href="#concept">Le concept</a></li>
       <li><a href="#fonctionnalites">Fonctionnalités</a></li>
       <li><a href="#apercu">Aperçu</a></li>
-      <li><a href="#avis">Avis</a></li>
+      <li><a href="#histoire">Notre histoire</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <a class="btn btn-primary nav-cta" href="#inscription">Être prévenu</a>
+    <a class="btn btn-primary nav-cta" href="#inscription">Être prévenu(e)</a>
     <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -64,7 +64,7 @@
               <span><small>Disponible sur</small><b>Google Play</b></span>
             </a>
           </div>
-          <p class="hero-note">L'app n'est pas encore sortie. <a href="#inscription">Laisse ton email</a> pour être prévenu du lancement.</p>
+          <p class="hero-note">L'app n'est pas encore sortie. <a href="#inscription">Laisse ton email</a> pour être prévenu(e) du lancement.</p>
         </div>
       </div>
       <div class="phones" aria-hidden="true">
@@ -205,7 +205,8 @@
   </section>
 
   <!-- AVIS — PROTOTYPE : avis fictifs à remplacer par de vrais retours de bêta-testeurs avant publication -->
-  <section id="avis">
+  <section id="avis" hidden>
+  <!-- SECTION MASQUÉE : retirer l'attribut hidden ci-dessus et remettre le lien "Avis" dans le menu quand les vrais avis de testeurs seront disponibles -->
     <div class="container">
       <div class="section-head center">
         <span class="eyebrow">Avis</span>
@@ -216,17 +217,37 @@
         <figure class="review">
           <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
           <blockquote>«&nbsp;Avant, on passait 30 minutes à chercher quoi regarder avec ma copine. Maintenant on pioche directement dans la watchlist de nos amis.&nbsp;»</blockquote>
-          <figcaption class="who"><span class="avatar" style="background:#845CE2">ML</span><span><b>Marc L.</b><span>Lyon</span></span></figcaption>
+          <figcaption class="who"><span class="avatar" style="background:#845CE2">ML</span><span><b>Marc L.</b><span>Montpellier</span></span></figcaption>
         </figure>
         <figure class="review">
           <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
           <blockquote>«&nbsp;J'adore voir les notes de mes proches sur chaque fiche. Leurs avis valent bien plus que les notes du public.&nbsp;»</blockquote>
-          <figcaption class="who"><span class="avatar" style="background:#5B33C9">SB</span><span><b>Sophie B.</b><span>Nantes</span></span></figcaption>
+          <figcaption class="who"><span class="avatar" style="background:#5B33C9">SB</span><span><b>Sophie B.</b><span>Paris</span></span></figcaption>
         </figure>
         <figure class="review">
           <div class="stars" aria-label="4 étoiles sur 5">★★★★<span style="opacity:.3">★</span></div>
           <blockquote>«&nbsp;Grâce à mon frère, j'ai découvert trois séries que je n'aurais jamais lancées seule. Le fil d'activité est vraiment addictif.&nbsp;»</blockquote>
           <figcaption class="who"><span class="avatar" style="background:#9E7FEA">CD</span><span><b>Camille D.</b><span>Bordeaux</span></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTRE HISTOIRE -->
+  <section id="histoire">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Notre histoire</span>
+        <h2>Pourquoi on a créé Watowa</h2>
+      </div>
+      <div class="founders">
+        <figure class="founder">
+          <blockquote>«&nbsp;Mes meilleurs films, je les ai tous découverts parce qu'un proche m'a dit&nbsp;: regarde ça. Avec Watowa, on veut que ce réflexe tienne dans ta poche.&nbsp;»</blockquote>
+          <figcaption class="who"><span class="avatar" style="background:#845CE2">J</span><span><b>Julien</b><span>Fondateur de Watowa</span></span></figcaption>
+        </figure>
+        <figure class="founder">
+          <blockquote>«&nbsp;On a dessiné une app simple, sans pub ni suggestions automatiques. Juste toi, tes proches et vos coups de cœur.&nbsp;»</blockquote>
+          <figcaption class="who"><span class="avatar" style="background:#5B33C9">D</span><span><b>Dimitri</b><span>Design et développement</span></span></figcaption>
         </figure>
       </div>
     </div>
@@ -246,7 +267,7 @@
         </details>
         <details>
           <summary>Quand l'application sera-t-elle disponible&nbsp;?</summary>
-          <p>Watowa est en cours de développement. Laisse ton email plus bas&nbsp;: tu seras parmi les premiers prévenus de la sortie sur iOS et Android.</p>
+          <p>Watowa est en cours de développement. Laisse ton email plus bas&nbsp;: tu seras parmi les premier(e)s prévenu(e)s de la sortie sur iOS et Android.</p>
         </details>
         <details>
           <summary>Peut-on regarder les films dans l'application&nbsp;?</summary>
@@ -277,7 +298,7 @@
     <div class="container">
       <div class="signup-box">
         <span class="eyebrow">Lancement</span>
-        <h2>Sois prévenu de la sortie</h2>
+        <h2>Sois prévenu(e) de la sortie</h2>
         <p>Laisse ton email, on te prévient dès que Watowa est disponible. Un seul email, pas de spam.</p>
         <!-- À BRANCHER : remplacer ce formulaire par celui de Brevo (ou renseigner data-endpoint) avant la mise en ligne -->
         <form class="signup-form" id="signup-form" data-endpoint="" novalidate>
@@ -329,7 +350,7 @@
         <!-- TEMPS 2 : liens vers les pages SEO (ex. « Meilleurs films 2026 », « Séries à voir en couple »…) -->
         <h4>Découvrir</h4>
         <ul>
-          <li><a href="#inscription">Être prévenu du lancement</a></li>
+          <li><a href="#inscription">Être prévenu(e) du lancement</a></li>
           <li><a href="#telecharger">Télécharger l'app</a></li>
         </ul>
       </div>
